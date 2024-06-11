@@ -1,2 +1,2 @@
-# web-portfolio
-My personal website portfolio depicting my skills, resume, education etc.
+# Website Portfolio
+My personal website portfolio showcasing my skills, resume, education and my projects.
