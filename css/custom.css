@@ -11845,16 +11845,31 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: papayawhip;
+  background-color: snow;
+}
+
+nav {
+  background-color: #345830;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-  list-style: none;
   display: inline;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 nav li a {
-  text-decoration: none;
+  text-decoration: wavy;
+  color: #94ECBE;
+  font-size: 2rem;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=custom.css.map */
