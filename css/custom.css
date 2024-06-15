@@ -11848,22 +11848,8 @@ body {
   background-color: snow;
 }
 
-nav {
+.navbg-main {
   background-color: #345830;
-  display: flex;
-  justify-content: center;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  margin-right: 2rem;
-}
-
-nav li a {
-  text-decoration: wavy;
-  color: #94ECBE;
-  font-size: 2rem;
 }
 
 .roboto-bold {
