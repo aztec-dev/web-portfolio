@@ -11852,6 +11852,14 @@ body {
   background-color: #345830;
 }
 
+.navbar-nav a {
+  color: #94ECBE;
+}
+
+.navbar-nav .nav-link.active {
+  color: #4A7856;
+}
+
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
