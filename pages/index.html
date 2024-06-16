@@ -29,7 +29,7 @@
   </head>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbg-main">
-    <div class="container-fluid">
+    <div class="container justify-content-center">
       <!-- Hamburger menue for smaller view ports -->
       <button
         class="navbar-toggler"
@@ -42,7 +42,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="projects.html">Projects</a>
@@ -53,16 +53,46 @@
     </div>
   </nav>
   <body>
-    <div>
-      <h1 class="roboto-bold">Hi, I am Azariah :)</h1>
-      <h2>Local technology enthusiast</h2>
-      <img
-        id="headshot"
-        src="../assets/me.jpg"
-        height="200px"
-        alt="This should be a photo of me."
-      />
+    <div class="container">
+      <div class="">
+        <h1 class="roboto-bold">Hi, I am Azariah :)</h1>
+        <h2 class="text-wrap">Local technology enthusiast</h2>
+        <img
+          id="headshot"
+          src="../assets/me.jpg"
+          height="200px"
+          alt="This should be a photo of me."
+        />
+      </div>
     </div>
+
+    <!-- Contact form -->
+    <form>
+      <div class="container">
+        <h1 class="roboto-bold">Let's talk about cats</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+      <div class="container">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div class="container">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Enter your message"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
 
     <footer>
       <p>© 2023 Azariah Pundari</p>
