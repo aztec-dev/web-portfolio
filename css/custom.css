@@ -11860,6 +11860,15 @@ body {
   color: #50514F;
 }
 
+.navbar-hover {
+  color: #50514F;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #50514F;
+  color: #50514F;
+}
+
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
