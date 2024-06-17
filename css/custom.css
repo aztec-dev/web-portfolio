@@ -11845,19 +11845,19 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: snow;
+  background-color: ghostwhite;
 }
 
 .navbg-main {
-  background-color: #345830;
+  background-color: #272D2D;
 }
 
 .navbar-nav a {
-  color: #94ECBE;
+  color: #F6F8FF;
 }
 
 .navbar-nav .nav-link.active {
-  color: #4A7856;
+  color: #50514F;
 }
 
 .roboto-bold {
