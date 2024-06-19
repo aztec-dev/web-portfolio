@@ -30,7 +30,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md sticky-top navbg-main navbar-dark">
     <!-- Hamburger menu for smaller view ports -->
-    <div class="d-flex ms-2">
+    <div class="ms-2">
       <button
         class="navbar-toggler custom-toggler"
         type="button"
@@ -43,7 +43,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <div
         class="collapse navbar-collapse justify-content-center"
         id="navbarNavAltMarkup"
@@ -59,12 +59,12 @@
   </nav>
 
   <body>
-    <div class="container-fluid">
-      <div class="d-flex flex-column mb-5">
-        <div><h1 class="roboto-bold">Hi, I am Azariah :)</h1></div>
-        <h2 class="text-wrap">Local technology enthusiast</h2>
+    <div class="container d-flex justify-content-sm-center mt-5">
+      <div class="mb-5">
+        <h1 class="roboto-bold">Hi, I am Azariah :)</h1>
+        <h2 class="text-wrap">Junior Software Developer</h2>
         <img
-          class="object-fit-contain"
+          class="rounded-circle"
           id="headshot"
           src="../assets/me.jpg"
           height="200px"
@@ -81,8 +81,6 @@
         <h1 class="roboto-bold">Let's talk about cats</h1>
         <label for="name">Name</label>
         <input type="text" id="name" placeholder="Enter your name" required />
-      </div>
-      <div class="container">
         <label for="email">Email</label>
         <input
           type="email"
@@ -90,8 +88,6 @@
           placeholder="Enter your email"
           required
         />
-      </div>
-      <div class="container">
         <label for="message">Message</label>
         <textarea
           id="message"
