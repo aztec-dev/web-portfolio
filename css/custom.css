@@ -11876,12 +11876,27 @@ body {
 }
 
 #main-intro {
-  font-size: 96px;
+  font-size: 102px;
+}
+
+#headshot {
+  margin-left: 10em;
 }
 
 @media (max-width: 375px) {
   #main-intro {
-    font-size: 52px;
+    font-size: 42px;
+  }
+}
+@media (max-width: 810px) {
+  #main-intro {
+    font-size: 64px;
+  }
+  #headshot {
+    margin-left: 0;
+    width: 200px;
+    height: auto;
+    margin-left: 3em;
   }
 }
 
