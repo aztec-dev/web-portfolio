@@ -11875,16 +11875,47 @@ body {
   font-style: normal;
 }
 
-#main-intro {
+#main-text {
   font-size: 102px;
   font-weight: 800;
 }
 
+.custom-shape-divider-bottom-1719809422 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1719809422 svg {
+  position: relative;
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 201px;
+}
+
+.custom-shape-divider-bottom-1719809422 .shape-fill {
+  fill: #50514F;
+}
+
+@media (max-width: 768px) {
+  .custom-shape-divider-bottom-1719809422 svg {
+    height: 150px;
+  }
+}
 @media (max-width: 375px) {
-  #main-intro {
+  #main-text {
     font-size: 4rem;
     font-weight: 800;
-    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  #main-text {
+    font-size: 4rem;
+    font-weight: 800;
   }
 }
 
